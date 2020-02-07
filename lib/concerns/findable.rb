@@ -7,16 +7,15 @@ module Findable
   
   end
   
-  module InstanceMethods 
+  #module InstanceMethods 
   
-  def to_param
-    name.downcase.gsub(' ', '-')
-  end
+  # def to_param
+  #   name.downcase.gsub(' ', '-')
+  # end
   
-  end
+  #end
 end 
   
   
   
   
-end 
